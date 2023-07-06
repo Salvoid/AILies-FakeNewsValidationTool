@@ -1,0 +1,163 @@
+==================================================
+NumPy Accuracy:  0.839563862928349
+==================================================
+Scikit Learn Accuracy:  0.839563862928349
+==================================================
+              precision    recall  f1-score   support
+
+        fake       0.93      0.74      0.82       328
+        real       0.78      0.95      0.85       314
+
+    accuracy                           0.84       642
+   macro avg       0.85      0.84      0.84       642
+weighted avg       0.86      0.84      0.84       642
+
+==================================================
+----------
+Confusion Matrix
+----------
+[[242  86]
+ [ 17 297]]
+----------
+==================================================
+==================================================
+Is Testing Dataset From Training Dataset: No
+Training Dataset / Testing Dataset Percentage:  80.0 % : 20.0 %
+Random Seed:  65
+Training Dataset Number of Posts:  2564
+Testing Dataset Number of Posts:  642
+==================================================
+Testing Dataset ACTUAL Validity Values: 
+ ['fake' 'fake' 'fake' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'fake'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'fake' 'fake'
+ 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake'
+ 'real' 'real' 'fake' 'fake' 'real' 'fake' 'real' 'fake' 'fake' 'real'
+ 'fake' 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'real' 'real'
+ 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'fake' 'fake' 'fake' 'fake'
+ 'fake' 'real' 'fake' 'real' 'real' 'real' 'real' 'real' 'real' 'fake'
+ 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake' 'fake' 'real' 'fake'
+ 'real' 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'fake'
+ 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'real' 'real' 'fake' 'real'
+ 'fake' 'fake' 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'fake' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'real' 'real' 'fake'
+ 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'fake' 'real'
+ 'real' 'fake' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'fake'
+ 'fake' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'fake'
+ 'real' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'real' 'real' 'real' 'real' 'real' 'fake' 'fake' 'fake' 'real'
+ 'fake' 'real' 'fake' 'real' 'fake' 'fake' 'fake' 'fake' 'fake' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'real'
+ 'fake' 'fake' 'real' 'real' 'fake' 'fake' 'fake' 'fake' 'real' 'fake'
+ 'fake' 'real' 'real' 'real' 'fake' 'real' 'real' 'fake' 'real' 'fake'
+ 'real' 'real' 'fake' 'fake' 'fake' 'real' 'fake' 'fake' 'fake' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'real'
+ 'real' 'fake' 'real' 'fake' 'fake' 'fake' 'real' 'real' 'real' 'fake'
+ 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'real'
+ 'fake' 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'real' 'real' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'real'
+ 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'fake'
+ 'real' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake'
+ 'real' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'real' 'real'
+ 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'fake'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'fake' 'real'
+ 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'fake'
+ 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'fake' 'real'
+ 'fake' 'fake' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'fake'
+ 'fake' 'real' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake'
+ 'fake' 'fake' 'real' 'fake' 'real' 'real' 'real' 'real' 'fake' 'real'
+ 'fake' 'real' 'fake' 'fake' 'fake' 'real' 'fake' 'real' 'fake' 'real'
+ 'fake' 'real' 'real' 'fake' 'fake' 'fake' 'real' 'fake' 'fake' 'fake'
+ 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake' 'real' 'real'
+ 'real' 'real' 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real'
+ 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'fake' 'fake' 'fake' 'real' 'fake' 'fake' 'fake' 'real' 'fake'
+ 'fake' 'real' 'real' 'fake' 'real' 'real' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'real' 'fake' 'fake' 'real'
+ 'real' 'real' 'real' 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'fake'
+ 'real' 'real' 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake'
+ 'real' 'fake' 'fake' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'fake'
+ 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake' 'fake'
+ 'fake' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'real'
+ 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'real'
+ 'fake' 'real' 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake'
+ 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'real' 'real' 'fake'
+ 'fake' 'real' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'real' 'fake'
+ 'real' 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'fake'
+ 'fake' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'real' 'real' 'real'
+ 'real' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake' 'real' 'real'
+ 'fake' 'fake' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'fake' 'real'
+ 'real' 'fake' 'fake' 'fake' 'fake' 'fake' 'real' 'fake' 'real' 'real'
+ 'fake' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'fake'
+ 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'real' 'real' 'real' 'fake' 'fake' 'fake' 'real' 'real' 'fake'
+ 'fake' 'real']
+==================================================
+Testing Dataset PREDICTION Validity Values: 
+ ['real' 'fake' 'fake' 'fake' 'fake' 'real' 'fake' 'real' 'real' 'fake'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'fake' 'fake'
+ 'real' 'real' 'real' 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake' 'real'
+ 'real' 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'real' 'real'
+ 'real' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'fake' 'fake' 'real'
+ 'fake' 'real' 'fake' 'real' 'real' 'real' 'real' 'real' 'real' 'fake'
+ 'real' 'fake' 'real' 'fake' 'fake' 'fake' 'real' 'fake' 'real' 'fake'
+ 'real' 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'real'
+ 'fake' 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'real' 'real'
+ 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake'
+ 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'real' 'fake' 'real'
+ 'real' 'fake' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'real'
+ 'fake' 'fake' 'fake' 'fake' 'fake' 'real' 'fake' 'real' 'real' 'fake'
+ 'fake' 'real' 'real' 'real' 'real' 'real' 'fake' 'real' 'real' 'fake'
+ 'real' 'real' 'fake' 'real' 'real' 'fake' 'real' 'real' 'fake' 'fake'
+ 'real' 'real' 'real' 'real' 'real' 'real' 'fake' 'fake' 'real' 'real'
+ 'real' 'real' 'fake' 'real' 'fake' 'fake' 'fake' 'fake' 'fake' 'fake'
+ 'real' 'real' 'real' 'real' 'real' 'fake' 'real' 'fake' 'real' 'real'
+ 'fake' 'fake' 'real' 'real' 'real' 'fake' 'fake' 'fake' 'fake' 'fake'
+ 'fake' 'real' 'real' 'real' 'real' 'real' 'real' 'fake' 'real' 'real'
+ 'real' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'real' 'fake' 'real'
+ 'real' 'real' 'real' 'real' 'real' 'real' 'real' 'real' 'real' 'real'
+ 'real' 'fake' 'real' 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'fake'
+ 'real' 'real' 'fake' 'real' 'fake' 'real' 'real' 'real' 'fake' 'real'
+ 'real' 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'real' 'real' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'real' 'real' 'real'
+ 'fake' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'real' 'fake' 'fake'
+ 'real' 'real' 'fake' 'real' 'fake' 'real' 'real' 'real' 'real' 'fake'
+ 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'real' 'real' 'real'
+ 'real' 'fake' 'fake' 'real' 'real' 'real' 'fake' 'real' 'fake' 'real'
+ 'real' 'fake' 'real' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real'
+ 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'fake'
+ 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake'
+ 'real' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'fake' 'real'
+ 'fake' 'real' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'real'
+ 'fake' 'real' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake' 'real'
+ 'fake' 'real' 'real' 'fake' 'real' 'real' 'real' 'real' 'fake' 'real'
+ 'fake' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'real' 'real' 'real'
+ 'fake' 'real' 'real' 'fake' 'fake' 'fake' 'real' 'fake' 'fake' 'fake'
+ 'real' 'fake' 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake' 'real'
+ 'real' 'real' 'fake' 'real' 'real' 'fake' 'real' 'fake' 'real' 'real'
+ 'fake' 'real' 'fake' 'real' 'real' 'real' 'fake' 'real' 'real' 'fake'
+ 'fake' 'fake' 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'real'
+ 'fake' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'fake' 'fake' 'real' 'real' 'fake' 'real' 'fake' 'fake' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake'
+ 'real' 'real' 'fake' 'fake' 'real' 'real' 'real' 'real' 'real' 'real'
+ 'real' 'fake' 'real' 'real' 'real' 'real' 'real' 'fake' 'fake' 'real'
+ 'fake' 'real' 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake' 'fake'
+ 'fake' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'real' 'real'
+ 'real' 'real' 'fake' 'fake' 'real' 'fake' 'fake' 'real' 'fake' 'real'
+ 'fake' 'real' 'real' 'real' 'real' 'real' 'real' 'real' 'fake' 'fake'
+ 'fake' 'fake' 'fake' 'real' 'real' 'real' 'real' 'real' 'real' 'fake'
+ 'fake' 'real' 'real' 'real' 'fake' 'fake' 'real' 'fake' 'real' 'fake'
+ 'real' 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'fake' 'fake'
+ 'real' 'fake' 'real' 'real' 'fake' 'fake' 'real' 'real' 'real' 'real'
+ 'real' 'real' 'fake' 'real' 'fake' 'real' 'fake' 'fake' 'real' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'fake' 'real'
+ 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'fake' 'real' 'real'
+ 'fake' 'real' 'real' 'real' 'fake' 'real' 'real' 'real' 'real' 'fake'
+ 'fake' 'real' 'real' 'real' 'fake' 'fake' 'fake' 'real' 'fake' 'fake'
+ 'fake' 'real' 'real' 'real' 'real' 'fake' 'fake' 'real' 'real' 'fake'
+ 'fake' 'fake']
+==================================================
